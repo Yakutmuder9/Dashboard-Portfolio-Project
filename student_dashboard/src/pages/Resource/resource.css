@@ -1,0 +1,65 @@
+.grid {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: grid;
+    overflow: hidden;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-auto-rows: auto;
+ }
+ 
+.blog{
+    height: 100%;
+    border: 0.001px solid silver;
+    border-radius: 8px;
+}
+.item .title{
+    height: auto;
+    background: #fff;
+    box-shadow: 2px 6px 16px #1a1c1f, -20px -20px 60px #24262b;
+}
+.item .desc{
+    height: auto;
+    background: #707b96;
+}
+.desc img{
+    width: 30rem!important;
+    height: 10rem!important;
+    margin: 0 10px 10px 0;
+    float: left;
+  }
+  #bookContent{
+    width: 350%;
+    height: 80%;
+  }
+  .grid .desc p{
+     color: black;
+    margin-bottom: 10px;
+  }
+.seachbtn{
+    background-color: rgb(63, 11, 122);
+}
+
+
+
+  .grid .photo {
+    grid-row-end: span 2;
+ }
+ .grid .bookspantwo {
+    grid-row-end: span 3;
+    
+ }
+ .grid .blog {
+    grid-row-end: span 1;
+ }
+ #startReadBtn{
+  background: #5cb85c;
+ }
+
+#listcontrol{
+    transition: .3s ease-in-out;
+}
+ 
+ 
+ 

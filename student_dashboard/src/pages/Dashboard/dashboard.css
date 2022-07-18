@@ -1,0 +1,29 @@
+.outletContainer{
+    /* height: 220vh!important; */
+    height: auto !important;
+    overflow-y: scroll!important;
+    overflow-x: hidden;
+    /* background: rgb(182, 191, 202); */
+}
+.drawerContantier .MuiTypography-root{
+    color: white;
+}
+.MuiPaper-root svg{
+    color: white;
+}
+.Mui-selected{
+    color: white;
+  background: #4a5e86!important;
+}
+.Appbar{
+    width: calc(100% - 286px)!important;
+}
+.Appbarcollapse{
+    width: calc(100% - 112px)!important;
+}
+.LogOutBtn{
+    background: #1a366c80!important;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.dashActive{
+  width: 50vw;
+  height: 250vh!important;
+}
+.MuiDrawer-paperAnchorDockedLeft{
+    background: var(--nav-background)!important;
+    color: white!important;
+    box-shadow: 2px 4px 12px black!important;
+}
+.advideo{
+  width: 100%;
+}
+.cardTitel{
+    height: 80%;
+    width: 70%;
+}
+.cardImage {
+    border-radius: 5px;
+    height: 100%;
+    margin-left: 5px;
+    width: 30%;
+}
+.cardImage img{
+    width: 100%;
+    border-radius: 15px;
+    height: 80%;
+    box-shadow: 2px 4px 6px;
+}
+/*----Spinning Cart styels----------*/
+#prochart{
+  transform: translate(0%, -4%);
+}
+.barDiscription{
+  color: black;
+  margin: 10px 0px;
+  border-left: 1px solid silver;
+  width: 30%;
+}
+.barDiscriptionCont{
+  padding: 10px 10px 10px 10px;
+}
+#SvgjsTspan1345{
+  color: black!important;
+ }
+#chart{
+  padding-bottom: 20px!important;
+  width: 70%!important;
+  /* background: rgb(255, 255, 255); */
+  background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
+  overflow: hidden;
+}
+#spiningChartbox{
+    width: 100%;
+    height: 90%;
+    background: rgb(6, 44, 73);
+    overflow: hidden;
+}
+#spinningChart {
+    margin-top: 5px;
+    height: 100% !important;
+  }
+  .apexcharts-legend-text {
+    color: rgb(197, 197, 197) !important;
+  }
+  .apexcharts-canvas {
+    overflow: hidden !important;
+  }
+  text *:not(:hover){
+    fill: rgb(255, 248, 248);
+  }
+  .apexcharts-zoomin-icon, .apexcharts-zoomout-icon, .apexcharts-element-hidden, .apexcharts-reset-icon, .apexcharts-menu-icon,
+  .apexcharts-zoom-icon, .apexcharts-pan-icon, .apexcharts-element-hidden{
+    height: 30px!important;
+    width: 30px!important;
+    overflow: hidden !important;
+    fill: rgb(255, 248, 248);
+    color: white !important;
+  }
+  .apexcharts-toolbar{
+    overflow: hidden !important;
+  }
+  .apexcharts-tooltip{
+    background: rgba(42, 42, 42, 0.786)!important;
+    border: none!important;
+  }
+  .apexcharts-tooltip-title{
+    background: rgba(32, 33, 36, 0.786)!important;
+    border: none!important;
+  }
+  
+  @media (max-width: 1200px) {
+    #dashFullfil {
+      height: auto;
+    }
+    #showCard {
+      width: 180px!important;
+    }
+  }
+  @media (max-width: 690px) {
+    #showCard {
+      align-items: left!important;
+      width: 190px!important;
+    }
+  } 
+

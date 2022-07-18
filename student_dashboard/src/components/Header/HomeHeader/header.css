@@ -1,0 +1,39 @@
+#headerNav {
+  width: 88vw;
+  height: 70px;
+  display: flex;
+  padding: 3vmin 3vmin;
+  margin-left: 6vw;
+  align-items: center;
+  position: absolute;
+  background: rgb(170, 179, 249);
+  z-index: 26!important;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  z-index: 2;
+    width: 150px;
+    overflow: hidden;
+  font-size: 24px;
+  margin-right: 8vw;
+  cursor: pointer;
+}
+
+nav button {
+  z-index: 2;
+    padding: 10px 40px !important;
+    color: whitesmoke;
+    background: none !important;
+    margin-right: 2vmin;
+    right: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
